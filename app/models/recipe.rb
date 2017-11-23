@@ -3,7 +3,7 @@ class Recipe < ActiveRecord::Base
   accepts_nested_attributes_for :ingredients
 end
 
-#
+#              //////// this is the hash that my form sends to as params ////////////////
 # {
 #   "utf8"=>"✓",
 #        "authenticity_token"=>"ctbg/E9TvCLG9G93s9v7Nm3dUFDKHigSWSEnL6h2Hikea9JbGJEBpmxxA9DINyd9PljQtSru3g8zxZjXHJG3NA==",
