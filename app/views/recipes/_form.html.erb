@@ -2,7 +2,8 @@
   Title: <%= f.text_field :title %><br>
 
   <%= f.fields_for :ingredients do |ingredient| %>
-     <%= ingredient.text_field :name %>
+    <%= ingredient.label :name %>
+    <%= ingredient.text_field :name %>
   <% end %>
 
   <%= f.submit %>
