@@ -14,7 +14,7 @@ class RecipesController < ApplicationController
   end
 
   def create
-    raise recipe_params.inspect
+    raise params.inspect
   end
 
   private
